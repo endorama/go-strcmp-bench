@@ -17,11 +17,7 @@ func TestStrings(t *testing.T) {
 func BenchmarkStrings(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		strcmp_strings(strA, strB) // <
-	}
-	for i := 0; i < b.N; i++ {
 		strcmp_strings(strB, strA) // >
-	}
-	for i := 0; i < b.N; i++ {
 		strcmp_strings(strA, strA) // ==
 	}
 }
