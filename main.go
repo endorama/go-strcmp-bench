@@ -8,6 +8,9 @@ import (
 const strA = "foobar"
 const strB = "hello"
 
+var bytA = []byte(strA)
+var bytB = []byte(strB)
+
 func strcmp_builtin(a, b string) int {
 	if a > b {
 		return +1
