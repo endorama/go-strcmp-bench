@@ -6,7 +6,7 @@ import (
 )
 
 const strA = "foobar"
-const strB = "hello"
+const strB = "hellow"
 
 var bytA = []byte(strA)
 var bytB = []byte(strB)
